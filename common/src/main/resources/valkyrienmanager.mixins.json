@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.verr1.valkyrienmanager.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [
+  ],
+  "mixins": [
+    "MixinShipAssembly",
+    "MixinShipObjectServerWorld",
+    "accessor.ShipObjectServerWorldAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

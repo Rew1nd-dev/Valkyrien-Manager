@@ -1,0 +1,365 @@
+[23:21:36] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.16.10
+[23:21:36] [main/INFO] (FabricLoader) Loading 97 mods:
+	- architectury 9.2.14
+	- create 0.5.1-f-build.1335+mc1.20.1
+	- dripstone_fluid_lib 3.0.2
+	- elementa 676
+	- fabric-api 0.92.5+1.20.1
+	- fabric-api-base 0.4.32+1802ada577
+	- fabric-api-lookup-api-v1 1.6.37+1802ada577
+	- fabric-biome-api-v1 13.0.14+1802ada577
+	- fabric-block-api-v1 1.0.12+1802ada577
+	- fabric-block-view-api-v2 1.0.3+924f046a77
+	- fabric-blockrenderlayer-v1 1.1.42+1802ada577
+	- fabric-client-tags-api-v1 1.1.3+1802ada577
+	- fabric-command-api-v1 1.2.35+f71b366f77
+	- fabric-command-api-v2 2.2.14+1802ada577
+	- fabric-commands-v0 0.2.52+df3654b377
+	- fabric-containers-v0 0.1.66+df3654b377
+	- fabric-content-registries-v0 4.0.13+1802ada577
+	- fabric-convention-tags-v1 1.5.6+1802ada577
+	- fabric-crash-report-info-v1 0.2.20+1802ada577
+	- fabric-data-attachment-api-v1 1.0.2+de0fd6d177
+	- fabric-data-generation-api-v1 12.3.6+1802ada577
+	- fabric-dimensions-v1 2.1.55+1802ada577
+	- fabric-entity-events-v1 1.6.1+1c78457f77
+	- fabric-events-interaction-v0 0.6.4+13a40c6677
+	- fabric-events-lifecycle-v0 0.2.64+df3654b377
+	- fabric-game-rule-api-v1 1.0.41+1802ada577
+	- fabric-gametest-api-v1 1.2.15+1802ada577
+	- fabric-item-api-v1 2.1.29+1802ada577
+	- fabric-item-group-api-v1 4.0.14+1802ada577
+	- fabric-key-binding-api-v1 1.0.38+1802ada577
+	- fabric-keybindings-v0 0.2.36+df3654b377
+	- fabric-language-kotlin 1.10.10+kotlin.1.9.10
+	- fabric-lifecycle-events-v1 2.2.23+1802ada577
+	- fabric-loot-api-v2 1.2.3+1802ada577
+	- fabric-loot-tables-v1 1.1.47+9e7660c677
+	- fabric-message-api-v1 5.1.10+1802ada577
+	- fabric-mining-level-api-v1 2.1.52+1802ada577
+	- fabric-model-loading-api-v1 1.0.4+1802ada577
+	- fabric-models-v0 0.4.3+9386d8a777
+	- fabric-networking-api-v1 1.3.13+13a40c6677
+	- fabric-networking-v0 0.3.53+df3654b377
+	- fabric-object-builder-api-v1 11.1.5+e35120df77
+	- fabric-particles-v1 1.1.3+1802ada577
+	- fabric-recipe-api-v1 1.0.23+1802ada577
+	- fabric-registry-sync-v0 2.3.5+1802ada577
+	- fabric-renderer-api-v1 3.2.2+1802ada577
+	- fabric-renderer-indigo 1.5.3+85287f9f77
+	- fabric-renderer-registries-v1 3.2.47+df3654b377
+	- fabric-rendering-data-attachment-v1 0.3.39+92a0d36777
+	- fabric-rendering-fluids-v1 3.0.29+1802ada577
+	- fabric-rendering-v0 1.1.50+df3654b377
+	- fabric-rendering-v1 3.0.9+1802ada577
+	- fabric-resource-conditions-api-v1 2.3.9+1802ada577
+	- fabric-resource-loader-v0 0.11.12+fb82e9d777
+	- fabric-screen-api-v1 2.0.9+1802ada577
+	- fabric-screen-handler-api-v1 1.3.32+1802ada577
+	- fabric-sound-api-v1 1.0.14+1802ada577
+	- fabric-transfer-api-v1 3.3.6+8dd72ea377
+	- fabric-transitive-access-wideners-v1 4.3.2+1802ada577
+	- fabricloader 0.16.10
+	- flywheel 0.6.10-2
+	- forgeconfigapiport 8.0.0
+	- generated_95c8331 1.0.0
+	- java 21
+	- milk 1.2.60
+	- minecraft 1.20.1
+	- mixinextras 0.4.1
+	- porting_lib_accessors 2.3.0+1.20.1
+	- porting_lib_attributes 2.3.0+1.20.1
+	- porting_lib_base 2.3.0+1.20.1
+	- porting_lib_brewing 2.3.0+1.20.1
+	- porting_lib_client_events 2.3.0+1.20.1
+	- porting_lib_common 2.3.0+1.20.1
+	- porting_lib_core 2.3.0+1.20.1
+	- porting_lib_data 2.1.1090+1.20
+	- porting_lib_entity 2.3.0+1.20.1
+	- porting_lib_extensions 2.3.0+1.20.1
+	- porting_lib_fluids 2.3.0+1.20.1
+	- porting_lib_lazy_registration 2.3.0+1.20.1
+	- porting_lib_mixin_extensions 2.3.0+1.20.1
+	- porting_lib_model_generators 2.1.1090+1.20
+	- porting_lib_model_loader 2.3.0+1.20.1
+	- porting_lib_model_materials 2.1.1090+1.20
+	- porting_lib_models 2.3.0+1.20.1
+	- porting_lib_networking 2.3.0+1.20.1
+	- porting_lib_obj_loader 2.3.0+1.20.1
+	- porting_lib_tags 3.0
+	- porting_lib_tool_actions 2.3.0+1.20.1
+	- porting_lib_transfer 2.3.0+1.20.1
+	- porting_lib_utility 2.3.0+1.20.1
+	- reach-entity-attributes 2.4.0
+	- registrate-fabric 1.3.62-MC1.20.1
+	- universalcraft 384
+	- valkyrien_mod 1.0.0
+	- valkyrien_ship_schematics 1.0
+	- valkyrienmanager 1.0.0
+	- valkyrienskies 2.1.3-beta.1+a52f38bd68
+[23:21:36] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/D:/Gradle/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[23:21:36] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[23:21:36] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[23:21:37] [main/WARN] (FabricLoader/Mixin) Reference map 'VMod-fabric-refmap.json' for vmod.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:21:37] [main/WARN] (FabricLoader/Mixin) Error loading class: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext (java.lang.ClassNotFoundException: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext)
+[23:21:37] [main/WARN] (FabricLoader/Mixin) @Mixin target io.vram.frex.base.renderer.context.render.EntityBlockRenderContext was not found porting_lib_base.mixins.json:client.frex.EntityBlockRenderContextMixin from mod porting_lib_base
+[23:21:37] [main/WARN] (FabricLoader/Mixin) Error loading class: rbasamoyai/createbigcannons/cannon_control/contraption/PitchOrientedContraptionEntity (java.lang.ClassNotFoundException: rbasamoyai/createbigcannons/cannon_control/contraption/PitchOrientedContraptionEntity)
+[23:21:37] [main/WARN] (FabricLoader/Mixin) Error loading class: com/sonicether/soundphysics/SoundPhysics (java.lang.ClassNotFoundException: com/sonicether/soundphysics/SoundPhysics)
+[23:21:37] [main/WARN] (FabricLoader/Mixin) Error loading class: me/jellysquid/mods/sodium/client/render/chunk/RenderSectionManager (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/RenderSectionManager)
+[23:21:37] [main/WARN] (FabricLoader/Mixin) @Mixin target me.jellysquid.mods.sodium.client.render.chunk.RenderSectionManager was not found valkyrienskies-fabric.mixins.json:compat.sodium.MixinRenderSectionManager from mod valkyrienskies
+[23:21:37] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[23:21:40] [main/WARN] (FabricLoader/Mixin) @Inject(@At("INVOKE")) Shift.BY=2 on porting_lib_entity.mixins.json:common.LivingEntityMixin from mod porting_lib_entity::handler$bde000$porting_lib_entity$port_lib$onFinishUsing exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[23:21:42] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 98 milliseconds
+[23:21:44] [Render thread/INFO] (Minecraft) [STDERR]: [LWJGL] [ThreadLocalUtil] Unsupported JNI version detected, this may result in a crash. Please inform LWJGL developers.
+[23:21:44] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23:21:45] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
+	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:55) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:124) ~[authlib-4.0.43.jar:?]
+	at net.minecraft.client.Minecraft.createUserApiService(Minecraft.java:733) ~[minecraft-merged-bee15b7263-1.20.1-loom.mappings.1_20_1.layered+hash.1900670477-v2.jar:?]
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:442) ~[minecraft-merged-bee15b7263-1.20.1-loom.mappings.1_20_1.layered+hash.1900670477-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:211) ~[minecraft-merged-bee15b7263-1.20.1-loom.mappings.1_20_1.layered+hash.1900670477-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+	at dev.architectury.transformer.TransformerRuntime.main(TransformerRuntime.java:220) ~[architectury-transformer-5.2.87-runtime.jar:?]
+Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:85) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-4.0.43.jar:?]
+	... 10 more
+[23:21:45] [Render thread/INFO] (Minecraft) Setting user: Player266
+[23:21:45] [Render thread/ERROR] (Minecraft) No data fixer registered for valkyrienskies:ship_mounting_entity
+[23:21:45] [Render thread/ERROR] (Minecraft) No data fixer registered for valkyrienskies:vs_physics_entity
+[23:21:46] [Render thread/INFO] (Minecraft) [STDOUT]: registering network handlers
+[23:21:46] [Render thread/WARN] (FabricLoader/Mixin) @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on valkyrienskies-common.mixins.json:mod_compat.create.block.MixinRedstoneContactBlock from mod valkyrienskies::handler$bkf000$valkyrienskies$injectTick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[23:21:48] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id valkyrien_mod:tr_rendering_data_request_failure
+[23:21:48] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id valkyrien_mod:tr_rendering_data_send_part
+[23:21:48] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id valkyrien_mod:s2c_client_synchronised_rendering_data
+[23:21:48] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:tr_rendering_data_request_data
+[23:21:48] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:tr_rendering_data_request_part
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id valkyrien_mod:s2c_connection_networking_handle_failure
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id valkyrien_mod:s2c_connection_networking_send_traversal_info
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id valkyrien_mod:tr_save_schem_stream_request_failure
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id valkyrien_mod:tr_save_schem_stream_send_part
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id valkyrien_mod:tr_load_schem_stream_request_data
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id valkyrien_mod:tr_load_schem_stream_request_part
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:tr_save_schem_stream_request_data
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:tr_save_schem_stream_request_part
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:tr_load_schem_stream_request_failure
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:tr_load_schem_stream_send_part
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_schem_networking_load_schematic
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id valkyrien_mod:s2c_schem_networking_send_ship_info
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_strip_mode_query_strippable_renderer_ids
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id valkyrien_mod:s2c_strip_mode_send_strippable_renderer_ids
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id valkyrien_mod:s2c_toolgun_extensions_set_schema
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_gravity_settings_request_gravity_vectors
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id valkyrien_mod:s2c_gravity_settings_send_gravity_vectors
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_gravity_settings_try_update_gravity_vectors
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id valkyrien_mod:s2c_gravity_settings_dimensional_gravity_update_was_rejected
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_player_roles_settings_request_role_data
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id valkyrien_mod:s2c_player_roles_settings_send_role_data
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_player_roles_settings_try_update_roles_settings
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_player_roles_settings_try_remove_role
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id valkyrien_mod:s2c_player_roles_settings_role_was_removed
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_player_roles_settings_try_add_new_role
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id valkyrien_mod:s2c_player_roles_settings_role_was_added
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_player_role_manager_request_players_roles_data
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id valkyrien_mod:s2c_player_role_manager_send_players_roles_data
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_player_role_manager_try_change_player_role
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_simple_messager_request_state
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id valkyrien_mod:s2c_simple_messager_request_state_response
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_simple_messager_send_state_update
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id valkyrien_mod:s2c_simple_messager_state_update_response
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_server_limits_request_server_limits
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id valkyrien_mod:s2c_server_limits_send_current_server_limits
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_server_limits_send_updated_server_limits
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id valkyrien_mod:s2c_server_toolgun_error_happened_reset_toolgun
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id valkyrien_mod:s2c_server_toolgun_toolgun_was_reset
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_server_toolgun_toolgun_was_reset
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_connection_mode_left_connection
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_connection_mode_right_connection
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_connection_mode_middle_connection
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_rope_mode_left_connection
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id valkyrien_mod:s2c_hydraulics_networking_handle_failure
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id valkyrien_mod:s2c_hydraulics_networking_send_traversal_info
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_hydraulics_mode_left_connection
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_hydraulics_mode_right_connection
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_hydraulics_mode_middle_connection
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_phys_rope_mode_left_connection
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_slider_mode_left_connection
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_sync_rotation_mode_left_connection
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_thruster_mode_left_connection
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_sensor_mode_left_connection
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_grav_changer_mode_left_connection
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_grav_changer_mode_right_connection
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_disable_connections_mode_left_connection
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_disable_connections_mode_right_connection
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_schem_mode_left_connection
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_schem_mode_right_connection
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_scale_mode_left_connection
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_strip_mode_left_connection
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_ship_remover_left_connection
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_ship_mass_changer_left_connection
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_ship_mass_changer_right_connection
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_test_mode_left_connection
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_server_toolgun_request_remove_last_ventity
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_server_toolgun_ask_if_i_have_access
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id valkyrien_mod:s2c_server_toolgun_response_to_access_request
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id valkyrien_mod:c2s_server_physgun_state_changed
+[23:21:49] [Render thread/ERROR] (Minecraft) No data fixer registered for simple_messager
+[23:21:49] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id architectury:spawn_entity_packet
+[23:21:49] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[23:21:49] [Render thread/INFO] (Backend) No shaders mod detected.
+[23:21:49] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.2-snapshot
+[23:21:50] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-data-attachment-api-v1, fabric-rendering-fluids-v1, fabric-networking-v0, registrate-fabric, porting_lib_base, fabric-renderer-api-v1, fabric-blockrenderlayer-v1, fabric-registry-sync-v0, fabric-rendering-v0, fabric-message-api-v1, milk, fabric-api, fabric-events-interaction-v0, fabric-mining-level-api-v1, fabric-resource-loader-v0, reach-entity-attributes, fabric-transfer-api-v1, fabric-resource-conditions-api-v1, fabric-rendering-data-attachment-v1, fabric-particles-v1, fabric-dimensions-v1, fabric-client-tags-api-v1, fabricloader, fabric-entity-events-v1, fabric-transitive-access-wideners-v1, fabric-language-kotlin, dripstone_fluid_lib, fabric-networking-api-v1, fabric-commands-v0, fabric-command-api-v1, porting_lib_attributes, fabric-block-view-api-v2, fabric-recipe-api-v1, fabric-loot-tables-v1, fabric-api-base, fabric-renderer-registries-v1, fabric-screen-handler-api-v1, fabric-api-lookup-api-v1, porting_lib_data, fabric-rendering-v1, fabric-key-binding-api-v1, fabric-object-builder-api-v1, fabric-models-v0, porting_lib_model_materials, valkyrienskies, fabric-containers-v0, create, fabric-loot-api-v2, porting_lib_model_generators, fabric-lifecycle-events-v1, fabric-renderer-indigo, fabric-command-api-v2, fabric-item-group-api-v1, fabric-block-api-v1, fabric-screen-api-v1, fabric-events-lifecycle-v0, fabric-gametest-api-v1, valkyrien_mod, forgeconfigapiport, fabric-data-generation-api-v1, fabric-keybindings-v0, fabric-game-rule-api-v1, fabric-convention-tags-v1, fabric-item-api-v1, porting_lib_tags, fabric-biome-api-v1, fabric-crash-report-info-v1, flywheel, fabric-sound-api-v1, fabric-content-registries-v0, fabric-model-loading-api-v1)
+[23:21:50] [Worker-Main-12/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
+[23:21:51] [Render thread/WARN] (FabricLoader/Mixin) Injection warning: LVT in com/simibubi/create/content/kinetics/fan/AirCurrent::tickAffectedEntities(Lnet/minecraft/world/level/Level;)V has incompatible changes at opcode 117 in callback valkyrienskies-common.mixins.json:mod_compat.create.MixinAirCurrent from mod valkyrienskies->@Inject::harvester(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/Direction;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Ljava/util/Iterator;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/core/Vec3i;FFDF)V.
+ Expected: [Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;, Ljava/util/Iterator;, Lnet/minecraft/world/entity/Entity;, Lnet/minecraft/world/phys/Vec3;, Lnet/minecraft/core/Vec3i;, F, F, D, F]
+    Found: [Ljava/util/Iterator;, Lnet/minecraft/world/entity/Entity;, Lnet/minecraft/core/Vec3i;, F, F, D, D, F]
+Available: [Ljava/util/Iterator;, Lnet/minecraft/world/entity/Entity;, Lnet/minecraft/core/Vec3i;, F, F, D, D, F]
+[23:21:51] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[23:21:52] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'minecraft:valkyrienskies' referenced from: valkyrienskies:test_flap#facing=north: java.io.FileNotFoundException: minecraft:models/valkyrienskies.json
+[23:21:52] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'valkyrienskies:ship_assembler#inventory' referenced from: valkyrienskies:ship_assembler#inventory: java.io.FileNotFoundException: valkyrienskies:models/item/ship_assembler.json
+[23:21:52] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'valkyrienskies:test_sphere#inventory' referenced from: valkyrienskies:test_sphere#inventory: java.io.FileNotFoundException: valkyrienskies:models/item/test_sphere.json
+[23:21:53] [Worker-Main-1/WARN] (Minecraft) Missing textures in model valkyrienskies:test_flap#facing=north:
+    minecraft:textures/atlas/blocks.png:valkyrienskies:test_wing
+[23:21:53] [Worker-Main-1/WARN] (Minecraft) Missing textures in model valkyrienskies:test_wing#facing=east:
+    minecraft:textures/atlas/blocks.png:valkyrienskies:test_wing
+[23:21:53] [Worker-Main-1/WARN] (Minecraft) Missing textures in model valkyrienskies:test_sphere#:
+    minecraft:textures/atlas/blocks.png:valkyrienskies:test_sphere
+[23:21:53] [Worker-Main-1/WARN] (Minecraft) Missing textures in model valkyrienskies:test_flap#facing=south:
+    minecraft:textures/atlas/blocks.png:valkyrienskies:test_wing
+[23:21:53] [Worker-Main-1/WARN] (Minecraft) Missing textures in model valkyrienskies:test_flap#inventory:
+    minecraft:textures/atlas/blocks.png:valkyrienskies:test_wing
+[23:21:53] [Worker-Main-1/WARN] (Minecraft) Missing textures in model valkyrienskies:test_flap#facing=west:
+    minecraft:textures/atlas/blocks.png:valkyrienskies:test_wing
+[23:21:53] [Worker-Main-1/WARN] (Minecraft) Missing textures in model valkyrienskies:test_wing#facing=up:
+    minecraft:textures/atlas/blocks.png:valkyrienskies:test_wing
+[23:21:53] [Worker-Main-1/WARN] (Minecraft) Missing textures in model valkyrienskies:test_wing#inventory:
+    minecraft:textures/atlas/blocks.png:valkyrienskies:test_wing
+[23:21:53] [Worker-Main-1/WARN] (Minecraft) Missing textures in model valkyrienskies:test_flap#facing=down:
+    minecraft:textures/atlas/blocks.png:valkyrienskies:test_wing
+[23:21:53] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[23:21:53] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[23:21:53] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on ¶ú»ú (SOMiC CH301)
+[23:21:53] [Render thread/INFO] (Minecraft) Sound engine started
+[23:21:53] [Render thread/INFO] (Minecraft) Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[23:21:53] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[23:21:53] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[23:21:53] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[23:21:53] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[23:21:53] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[23:21:53] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[23:21:53] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[23:21:53] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[23:21:53] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[23:21:53] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[23:21:53] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[23:21:53] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[23:21:53] [Render thread/INFO] (Backend) Loaded all shader sources.
+[23:22:02] [Render thread/INFO] (Minecraft) Loaded 22 recipes
+[23:22:02] [Render thread/INFO] (Minecraft) Loaded 2260 advancements
+[23:22:03] [Render thread/WARN] (MassDatapackResolver) No specified tag 'minecraft:carpets' doesn't exist!
+[23:22:03] [Render thread/INFO] (BiomeModificationImpl) Applied 7 biome modifications to 6 of 64 new biomes in 5.850 ms
+[23:22:03] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.1
+[23:22:03] [Server thread/INFO] (Minecraft) Generating keypair
+[23:22:04] [Server thread/INFO] (VSNetworking) We are not using UDP, falling back to TCP
+[23:22:04] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[23:22:05] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[23:22:05] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[23:22:05] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[23:22:05] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[23:22:06] [Render thread/INFO] (Minecraft) Preparing spawn area: 67%
+[23:22:06] [Render thread/INFO] (Minecraft) Time elapsed: 2038 ms
+[23:22:06] [Server thread/INFO] (valkyrien_mod) Deserialized 0 VEntities
+[23:22:06] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[23:22:06] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[23:22:07] [Server thread/INFO] (Minecraft) Player266[local:E:a7436160] logged in with entity id 39 at (13.08209887217586, -58.063031167199966, 6.466838795254306)
+[23:22:07] [Server thread/INFO] (Minecraft) Player266 joined the game
+[23:22:07] [Render thread/INFO] (BatchExecutor) Started 10 worker threads
+[23:22:07] [Render thread/WARN] (MassDatapackResolver) No specified tag 'minecraft:carpets' doesn't exist!
+[23:22:08] [Render thread/INFO] (Minecraft) Loaded 16 advancements
+[23:22:13] [Render thread/INFO] (Minecraft) [System] [CHAT] Unknown or incomplete command, see below for error
+[23:22:13] [Render thread/INFO] (Minecraft) [System] [CHAT] vsm ls<--[HERE]
+[23:22:17] [Render thread/INFO] (Minecraft) [System] [CHAT] VSM Data: Page: 0 / 0
+[23:22:17] [Render thread/INFO] (Minecraft) [System] [CHAT] -----------------------------------
+[23:22:23] [Server thread/INFO] (ValkyrienManager) Adding ship data for shipID: 191
+[23:22:23] [Server thread/INFO] (ValkyrienManager) Removing ship data for shipID: 187
+[23:22:23] [Render thread/INFO] (Minecraft) [System] [CHAT] SHIPIFIED!
+[23:22:25] [Server thread/INFO] (ValkyrienManager) Removing ship data for shipID: 182
+[23:22:29] [Server thread/INFO] (ValkyrienManager) Adding ship data for shipID: 192
+[23:22:29] [Render thread/INFO] (Minecraft) [System] [CHAT] SHIPIFIED!
+[23:22:31] [Server thread/INFO] (ValkyrienManager) Adding ship data for shipID: 193
+[23:22:31] [Render thread/INFO] (Minecraft) [System] [CHAT] Clustered Ships: [192]
+[23:22:33] [Server thread/INFO] (ValkyrienManager) Adding ship data for shipID: 194
+[23:22:33] [Render thread/INFO] (Minecraft) [System] [CHAT] Clustered Ships: [192, 193]
+[23:22:39] [Server thread/INFO] (ValkyrienManager) Adding ship data for shipID: 195
+[23:22:39] [Render thread/INFO] (Minecraft) [System] [CHAT] SHIPIFIED!
+[23:22:43] [Render thread/INFO] (Minecraft) [System] [CHAT] VSM Data: Page: 0 / 1
+[23:22:43] [Render thread/INFO] (Minecraft) [System] [CHAT] -----------------------------------
+[23:22:43] [Render thread/INFO] (Minecraft) [System] [CHAT] -----------------------------------
+[23:22:43] [Render thread/INFO] (Minecraft) [System] [CHAT] -----------------------------------
+[23:22:43] [Render thread/INFO] (Minecraft) [System] [CHAT] -----------------------------------
+[23:22:43] [Render thread/INFO] (Minecraft) [System] [CHAT] -----------------------------------
+[23:22:43] [Render thread/INFO] (Minecraft) [System] [CHAT] -----------------------------------
+[23:23:21] [Render thread/INFO] (Minecraft) [System] [CHAT] Query Data: :
+[23:23:21] [Render thread/INFO] (Minecraft) [System] [CHAT] id:192
+[23:23:21] [Render thread/INFO] (Minecraft) [System] [CHAT] -----------------------------------
+[23:23:21] [Render thread/INFO] (Minecraft) [System] [CHAT] id:193
+[23:23:21] [Render thread/INFO] (Minecraft) [System] [CHAT] -----------------------------------
+[23:23:21] [Render thread/INFO] (Minecraft) [System] [CHAT] id:194
+[23:23:21] [Render thread/INFO] (Minecraft) [System] [CHAT] -----------------------------------
+[23:23:21] [Render thread/INFO] (Minecraft) [System] [CHAT] id:195
+[23:23:21] [Render thread/INFO] (Minecraft) [System] [CHAT] -----------------------------------
+[23:23:21] [Render thread/INFO] (Minecraft) [System] [CHAT] id:191
+[23:23:21] [Render thread/INFO] (Minecraft) [System] [CHAT] -----------------------------------
+[23:23:29] [Render thread/INFO] (Minecraft) [System] [CHAT] id:192
+[23:23:29] [Render thread/INFO] (Minecraft) [System] [CHAT] Created:0h: 1m: 1s
+[23:23:29] [Render thread/INFO] (Minecraft) [System] [CHAT] Players Around On Creation:[Player266]
+[23:23:29] [Render thread/INFO] (Minecraft) [System] [CHAT] Owner:Not Owned
+[23:23:29] [Render thread/INFO] (Minecraft) [System] [CHAT] Tags:[]
+[23:23:29] [Render thread/INFO] (Minecraft) [System] [CHAT] -----------------------------------
+[23:23:42] [Render thread/INFO] (Minecraft) [System] [CHAT] id:192
+[23:23:42] [Render thread/INFO] (Minecraft) [System] [CHAT] -----------------------------------
+[23:23:42] [Render thread/INFO] (Minecraft) [System] [CHAT] id:193
+[23:23:42] [Render thread/INFO] (Minecraft) [System] [CHAT] -----------------------------------
+[23:23:42] [Render thread/INFO] (Minecraft) [System] [CHAT] id:194
+[23:23:42] [Render thread/INFO] (Minecraft) [System] [CHAT] -----------------------------------
+[23:23:51] [Render thread/INFO] (Minecraft) [System] [CHAT] No ships found!
+[23:23:55] [Render thread/INFO] (Minecraft) [System] [CHAT] You are now the owner of IDs: [195]
+[23:24:00] [Render thread/INFO] (Minecraft) [System] [CHAT] You are now the owner of IDs: [192, 193, 194]
+[23:24:05] [Render thread/INFO] (Minecraft) [System] [CHAT] Query Data: :
+[23:24:05] [Render thread/INFO] (Minecraft) [System] [CHAT] id:192
+[23:24:05] [Render thread/INFO] (Minecraft) [System] [CHAT] -----------------------------------
+[23:24:05] [Render thread/INFO] (Minecraft) [System] [CHAT] id:193
+[23:24:05] [Render thread/INFO] (Minecraft) [System] [CHAT] -----------------------------------
+[23:24:05] [Render thread/INFO] (Minecraft) [System] [CHAT] id:194
+[23:24:05] [Render thread/INFO] (Minecraft) [System] [CHAT] -----------------------------------
+[23:24:05] [Render thread/INFO] (Minecraft) [System] [CHAT] id:195
+[23:24:05] [Render thread/INFO] (Minecraft) [System] [CHAT] -----------------------------------
+[23:24:45] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[23:24:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[23:24:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[23:24:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[23:24:45] [Server thread/INFO] (Minecraft) Player266 lost connection: Disconnected
+[23:24:45] [Server thread/INFO] (Minecraft) Player266 left the game
+[23:24:45] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[23:24:45] [Server thread/INFO] (Minecraft) Stopping server
+[23:24:45] [Server thread/INFO] (Minecraft) Saving players
+[23:24:45] [Server thread/INFO] (Minecraft) Saving worlds
+[23:24:45] [Physics thread/INFO] (Minecraft) [STDOUT]: Running deletePhysicsResources
+[23:24:45] [Physics thread/INFO] (Burger Factory) Deleting VSPhysicsPipelineStage resources!
+[23:24:45] [Physics thread/WARN] (Ap) Physics pipeline ending
+[23:24:46] [DefaultDispatcher-worker-7 @coroutine#93952/INFO] (Burger Factory) VSPhysicsPipelineStage is fully deleted!
+[23:24:47] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[23:24:50] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[23:24:50] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[23:24:50] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
+[23:24:50] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:24:50] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:24:50] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[23:46:22] [Render thread/INFO] (Minecraft) Stopping!

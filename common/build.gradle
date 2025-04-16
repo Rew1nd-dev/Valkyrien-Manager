@@ -1,0 +1,49 @@
+architectury {
+    common("fabric", "forge")
+}
+
+repositories {
+    maven {
+        url = "https://repo.essential.gg/repository/maven-public"
+    }
+    maven {
+        name = "Valkyrien Skies Internal"
+        url = 'https://maven.valkyrienskies.org'
+    }
+    maven { url = "https://mvn.devos.one/snapshots/" } // Create Fabric, Porting Lib, Forge Tags, Milk Lib, Registrate Fabric
+    mavenCentral()
+}
+
+dependencies {
+    // We depend on Fabric Loader here to use the Fabric @Environment annotations,
+    // which get remapped to the correct annotations on each platform.
+    // Do NOT use other classes from Fabric Loader.
+    modImplementation "net.fabricmc:fabric-loader:$rootProject.fabric_loader_version"
+
+    modApi "dev.architectury:architectury:${rootProject.architectury_version}"
+
+    modApi(files("vs_jars/valkyrienskies-120-common-2.3.0-beta.5+6911bbe238.jar"))
+    modApi("org.valkyrienskies.core:api:${rootProject.vs_core_version}")
+    modApi("org.valkyrienskies.core:api-game:${rootProject.vs_core_version}")
+    modApi("org.valkyrienskies.core:util:${rootProject.vs_core_version}")
+    modApi("org.valkyrienskies.core:impl:${rootProject.vs_core_version}")
+
+
+    modImplementation (files("vs_jars/valkyrien-ship-schematics-common-1.0.jar"))
+    modImplementation (files("vs_jars/VMod-1.0.0.jar"))
+
+
+//    modApi("org.valkyrienskies:valkyrienskies-120-common:${rootProject.vs2_version}")
+    /*
+
+    // Architectury API. This is optional, and you can comment it out if you don't need it.
+    modImplementation "dev.architectury:architectury:$rootProject.architectury_api_version"
+
+
+    * */
+    implementation("gg.essential:elementa:676")
+    modCompileOnly("gg.essential:universalcraft-1.20.1-forge:384")
+
+    compileOnly(annotationProcessor("io.github.llamalad7:mixinextras-common:0.4.0-beta.2"))
+
+}

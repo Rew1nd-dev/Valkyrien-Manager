@@ -1,0 +1,267 @@
+[Architectury Transformer] Architectury Runtime 5.2.87
+[Architectury Transformer DEBUG] Closed File Systems for D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\common\build\devlibs\valkyrienmanager-1.0.0-dev.jar
+[Architectury Transformer DEBUG] Preparing tiny remapper prepared transformer: dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Provided 134 classpath jar(s):
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\2.1.0\85f8b81009cda5890e54ba67d64b5e599c645020\kotlin-stdlib-2.1.0.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\dev.architectury\architectury-injectables\1.0.10\62db2a366d662606d1b23ad02ccc3212ed37ec3\architectury-injectables-1.0.10.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\net.fabricmc\fabric-loader\0.16.13\98c9beaf1e9b7290882be44120b8a3967e7b1f28\fabric-loader-0.16.13.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\24.1.0\7af6a669488450c4a07c2c3254e2151df42d7d04\annotations-24.1.0.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\com.fasterxml\classmate\1.5.1\3fe0bed568c62df5e89f4f174c101eab25345b6c\classmate-1.5.1.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.13.3\7198b3aac15285a49e218e08441c5f70af00fc51\jackson-annotations-2.13.3.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.jgrapht\jgrapht-core\1.5.2\bea9b92d4ff37111f8e3d58cd8cf0714e5c83774\jgrapht-core-1.5.2.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\gg.essential\elementa\676\b2570528136987f8302a8c6c76e3d6ae949c1f6e\elementa-676.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\9.7.1\f0ed132a49244b042cd0e15702ab9f2ce3cc8436\asm-9.7.1.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\9.7.1\f97a3b319f0ed6a8cd944dc79060d3912a28985f\asm-analysis-9.7.1.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\9.7.1\406c6a2225cfe1819f102a161e54cc16a5c24f75\asm-commons-9.7.1.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\9.7.1\3a53139787663b139de76b627fca0084ab60d32c\asm-tree-9.7.1.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\9.7.1\9e23359b598ec6b74b23e53110dd5c577adf2243\asm-util-9.7.1.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\net.fabricmc\sponge-mixin\0.15.4+mixin.0.8.7\6a12aacc794f1078458433116e9ed42c1cc98096\sponge-mixin-0.15.4+mixin.0.8.7.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-fabric\0.4.1\8d1a9e96afb990367fa1f904d17580d164da72e3\mixinextras-fabric-0.4.1.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\com.github.oshi\oshi-core\6.2.2\54f5efc19bca95d709d9a37d19ffcbba3d21c1a6\oshi-core-6.2.2.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.10\dd9b193aef96e973d5a11ab13cd17430c2e4306b\gson-2.10.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\31.1-jre\60458f877d055d0c9114d9e1a2efb737b4bc282c\guava-31.1-jre.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j\71.1\9e7d3304c23f9ba5cb71915f7cce23231a57a445\icu4j-71.1.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\4.0.43\2ff9d747a77570a07a60d32ac77eb6162ad2a2d9\authlib-4.0.43.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\com.mojang\blocklist\1.0.10\5c685c5ffa94c4cd39496c7184c1d122e515ecef\blocklist-1.0.10.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.1.8\5244ce82c3337bba4a196a3ce858bfaecc74404a\brigadier-1.1.8.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\6.0.8\3ba4a30557a9b057760af4011f909ba619fc5125\datafixerupper-6.0.8.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\com.mojang\logging\1.1.1\832b8e6674a9b325a5175a3a6267dfaf34c85139\logging-1.1.1.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\2.2.10\da05971b07cbb379d002cf7eaec6a2048211fefc\patchy-2.2.10.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.17.9\3cad216e3a7f0c19b4b394388bc9ffc446f13b14\text2speech-1.17.9.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.15\49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d\commons-codec-1.15.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.11.0\a2503f302b11ebde7ebc3df41daebe0e4eea3689\commons-io-2.11.0.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.2\4bfc12adfe4842bf07b657f0369c4cb522955686\commons-logging-1.2.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.82.Final\a544270cf1ae8b8077082f5036436a9a9971ea71\netty-buffer-4.1.82.Final.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.82.Final\b77200379acb345a9ffdece1c605e591ac3e4e0a\netty-codec-4.1.82.Final.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.82.Final\22d148e85c3f5ebdacc0ce1f5aabb1d420f73f3\netty-common-4.1.82.Final.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.82.Final\644041d1fa96a5d3130a29e8978630d716d76e38\netty-handler-4.1.82.Final.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.82.Final\38f665ae8dcd29032eea31245ba7806bed2e0fa8\netty-resolver-4.1.82.Final.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-classes-epoll\4.1.82.Final\e7c7dd18deac93105797f30057c912651ea76521\netty-transport-classes-epoll-4.1.82.Final.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.82.Final\3e895b35ca1b8a0eca56cacff4c2dde5d2c6abce\netty-transport-native-unix-common-4.1.82.Final.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.82.Final\e431a218d91acb6476ccad5f5aafde50aa3945ca\netty-transport-4.1.82.Final.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.5.9\bb7ea75ecdb216654237830b3a96d87ad91f8cc5\fastutil-8.5.9.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\5.12.1\97406a297c852f4a41e688a176ec675f72e8329\jna-platform-5.12.1.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\5.12.1\b1e93a735caea94f503e95e6fe79bf9cdc1e985d\jna-5.12.1.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.21\4ec95b60d4e86b5c95a0e919cb172a0af98011ef\commons-compress-1.21.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.12.0\c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e\commons-lang3-3.12.0.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.5.13\e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada\httpclient-4.5.13.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.15\7f2e0c573eaa7a74bac2e89b359e1f73d92a0a1d\httpcore-4.4.15.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.19.0\ea1b37f38c327596b216542bc636cfdc0b8036fa\log4j-api-2.19.0.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.19.0\3b6eeb4de4c49c0fe38a4ee27188ff5fee44d0bb\log4j-core-2.19.0.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j2-impl\2.19.0\5c04bfdd63ce9dceb2e284b81e96b6a70010ee10\log4j-slf4j2-impl-2.19.0.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.joml\joml\1.10.5\22566d58af70ad3d72308bab63b8339906deb649\joml-1.10.5.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\cbac1b8d30cb4795149c1ef540f912671a8616d0\lwjgl-glfw-3.3.1.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\a817bcf213db49f710603677457567c37d53e103\lwjgl-jemalloc-3.3.1.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\2623a6b8ae1dfcd880738656a9f0243d2e6840bd\lwjgl-openal-3.3.1.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\831a5533a21a5f4f81bbc51bb13e9899319b5411\lwjgl-opengl-3.3.1.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\b119297cf8ed01f247abe8685857f8e7fcf5980f\lwjgl-stb-3.3.1.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\ff1914111ef2e3e0110ef2dabc8d8cdaad82347\lwjgl-tinyfd-3.3.1.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\ae58664f88e18a9bb2c77b063833ca7aaec484cb\lwjgl-3.3.1.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.1\f48d81adce2abf5ad3cfe463df517952749e03bc\slf4j-api-2.0.1.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\minecraftMaven\net\minecraft\minecraft-merged-bee15b7263\1.20.1-loom.mappings.1_20_1.layered+hash.1900670477-v2\minecraft-merged-bee15b7263-1.20.1-loom.mappings.1_20_1.layered+hash.1900670477-v2.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.82.Final\c7350a71920f3ae9142945e25fed4846cce53374\netty-transport-native-epoll-4.1.82.Final-linux-x86_64.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.82.Final\476409d6255001ca53a55f65b01c13822f8dc93a\netty-transport-native-epoll-4.1.82.Final-linux-aarch_64.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-coroutines-jdk8\1.7.3\263611b87f7546402852e43a8dc7ef3223ada42a\kotlinx-coroutines-jdk8-1.7.3.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-coroutines-core-jvm\1.7.3\2b09627576f0989a436a00a4a54b55fa5026fb86\kotlinx-coroutines-core-jvm-1.7.3.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk8\1.9.10\c7510d64a83411a649c76f2778304ddf71d7437b\kotlin-stdlib-jdk8-1.9.10.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk7\1.9.10\bc5bfc2690338defd5195b05c57562f2194eeb10\kotlin-stdlib-jdk7-1.9.10.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-reflect\1.9.10\dd37cb80926cb4ed427b606502e6f6f063d38fb5\kotlin-reflect-1.9.10.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-serialization-json-jvm\1.6.0\59761a941bd8691b3ef2447f5b9376868a6b2d7e\kotlinx-serialization-json-jvm-1.6.0.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-serialization-cbor-jvm\1.6.0\554ce5fa35b8b78283f6d6386433477fc4f5d6b\kotlinx-serialization-cbor-jvm-1.6.0.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-serialization-core-jvm\1.6.0\94b35f721f1029b3b8d46fb277b4e53fb1a0a510\kotlinx-serialization-core-jvm-1.6.0.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-datetime-jvm\0.4.0\2224732fcb9b6116fbeb0926dd108604e578356b\kotlinx-datetime-jvm-0.4.0.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\atomicfu-jvm\0.22.0\c6a128a44ba52a18265e5ec816130cd341d80792\atomicfu-jvm-0.22.0.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.valkyrienskies.core\api\1.1.0+e26d9059c0\b6a4cba29a8d509253245442ab18fe5a685cc051\api-1.1.0+e26d9059c0.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-api\0.92.5+1.20.1\fabric-api-0.92.5+1.20.1.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\dev\architectury\architectury-fabric\9.2.14\architectury-fabric-9.2.14.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-language-kotlin\1.10.10+kotlin.1.9.10\fabric-language-kotlin-1.10.10+kotlin.1.9.10.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\gg\essential\universalcraft-1.20.1-fabric\384\universalcraft-1.20.1-fabric-384.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-transfer-api-v1\3.3.6+8dd72ea377\fabric-transfer-api-v1-3.3.6+8dd72ea377.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-api-lookup-api-v1\1.6.37+1802ada577\fabric-api-lookup-api-v1-1.6.37+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-blockrenderlayer-v1\1.1.42+1802ada577\fabric-blockrenderlayer-v1-1.1.42+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-client-tags-api-v1\1.1.3+1802ada577\fabric-client-tags-api-v1-1.1.3+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-command-api-v1\1.2.35+f71b366f77\fabric-command-api-v1-1.2.35+f71b366f77.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-commands-v0\0.2.52+df3654b377\fabric-commands-v0-0.2.52+df3654b377.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-command-api-v2\2.2.14+1802ada577\fabric-command-api-v2-2.2.14+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-content-registries-v0\4.0.13+1802ada577\fabric-content-registries-v0-4.0.13+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-convention-tags-v1\1.5.6+1802ada577\fabric-convention-tags-v1-1.5.6+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-data-attachment-api-v1\1.0.2+de0fd6d177\fabric-data-attachment-api-v1-1.0.2+de0fd6d177.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-data-generation-api-v1\12.3.6+1802ada577\fabric-data-generation-api-v1-12.3.6+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-dimensions-v1\2.1.55+1802ada577\fabric-dimensions-v1-2.1.55+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-entity-events-v1\1.6.1+1c78457f77\fabric-entity-events-v1-1.6.1+1c78457f77.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-events-interaction-v0\0.6.4+13a40c6677\fabric-events-interaction-v0-0.6.4+13a40c6677.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-gametest-api-v1\1.2.15+1802ada577\fabric-gametest-api-v1-1.2.15+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-events-lifecycle-v0\0.2.64+df3654b377\fabric-events-lifecycle-v0-0.2.64+df3654b377.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-item-api-v1\2.1.29+1802ada577\fabric-item-api-v1-2.1.29+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-item-group-api-v1\4.0.14+1802ada577\fabric-item-group-api-v1-4.0.14+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-mining-level-api-v1\2.1.52+1802ada577\fabric-mining-level-api-v1-2.1.52+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-lifecycle-events-v1\2.2.23+1802ada577\fabric-lifecycle-events-v1-2.2.23+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-loot-tables-v1\1.1.47+9e7660c677\fabric-loot-tables-v1-1.1.47+9e7660c677.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-loot-api-v2\1.2.3+1802ada577\fabric-loot-api-v2-1.2.3+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-message-api-v1\5.1.10+1802ada577\fabric-message-api-v1-5.1.10+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-models-v0\0.4.3+9386d8a777\fabric-models-v0-0.4.3+9386d8a777.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-model-loading-api-v1\1.0.4+1802ada577\fabric-model-loading-api-v1-1.0.4+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-recipe-api-v1\1.0.23+1802ada577\fabric-recipe-api-v1-1.0.23+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-registry-sync-v0\2.3.5+1802ada577\fabric-registry-sync-v0-2.3.5+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-screen-handler-api-v1\1.3.32+1802ada577\fabric-screen-handler-api-v1-1.3.32+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-containers-v0\0.1.66+df3654b377\fabric-containers-v0-0.1.66+df3654b377.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-networking-v0\0.3.53+df3654b377\fabric-networking-v0-0.3.53+df3654b377.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-networking-api-v1\1.3.13+13a40c6677\fabric-networking-api-v1-1.3.13+13a40c6677.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-object-builder-api-v1\11.1.5+e35120df77\fabric-object-builder-api-v1-11.1.5+e35120df77.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-particles-v1\1.1.3+1802ada577\fabric-particles-v1-1.1.3+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-renderer-indigo\1.5.3+85287f9f77\fabric-renderer-indigo-1.5.3+85287f9f77.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-renderer-api-v1\3.2.2+1802ada577\fabric-renderer-api-v1-3.2.2+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-rendering-fluids-v1\3.0.29+1802ada577\fabric-rendering-fluids-v1-3.0.29+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-renderer-registries-v1\3.2.47+df3654b377\fabric-renderer-registries-v1-3.2.47+df3654b377.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-rendering-v0\1.1.50+df3654b377\fabric-rendering-v0-1.1.50+df3654b377.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-rendering-v1\3.0.9+1802ada577\fabric-rendering-v1-3.0.9+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-screen-api-v1\2.0.9+1802ada577\fabric-screen-api-v1-2.0.9+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-api-base\0.4.32+1802ada577\fabric-api-base-0.4.32+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-biome-api-v1\13.0.14+1802ada577\fabric-biome-api-v1-13.0.14+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-block-api-v1\1.0.12+1802ada577\fabric-block-api-v1-1.0.12+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-rendering-data-attachment-v1\0.3.39+92a0d36777\fabric-rendering-data-attachment-v1-0.3.39+92a0d36777.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-block-view-api-v2\1.0.3+924f046a77\fabric-block-view-api-v2-1.0.3+924f046a77.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-crash-report-info-v1\0.2.20+1802ada577\fabric-crash-report-info-v1-0.2.20+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-game-rule-api-v1\1.0.41+1802ada577\fabric-game-rule-api-v1-1.0.41+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-keybindings-v0\0.2.36+df3654b377\fabric-keybindings-v0-0.2.36+df3654b377.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-key-binding-api-v1\1.0.38+1802ada577\fabric-key-binding-api-v1-1.0.38+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-resource-conditions-api-v1\2.3.9+1802ada577\fabric-resource-conditions-api-v1-2.3.9+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-resource-loader-v0\0.11.12+fb82e9d777\fabric-resource-loader-v0-0.11.12+fb82e9d777.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-sound-api-v1\1.0.14+1802ada577\fabric-sound-api-v1-1.0.14+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\net\fabricmc\fabric-api\fabric-transitive-access-wideners-v1\4.3.2+1802ada577\fabric-transitive-access-wideners-v1-4.3.2+1802ada577.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\unspecified\valkyrien-ship-schematics-fabric-1.0\046a5bff3acb\valkyrien-ship-schematics-fabric-1.0-046a5bff3acb.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\unspecified\VMod-Fabric-1.20.1-1.0.0\e7ad32889f06\VMod-Fabric-1.20.1-1.0.0-e7ad32889f06.jar
+[Architectury Transformer DEBUG]  - D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_1900670477_v2\org\valkyrienskies\valkyrienskies-120-fabric\2.1.3-beta.1+a52f38bd68\valkyrienskies-120-fabric-2.1.3-beta.1+a52f38bd68.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.jheaps\jheaps\0.14\2f97e59108979ba44e71ab1f8166722e62bc6d96\jheaps-0.14.jar
+[Architectury Transformer DEBUG]  - D:\Gradle\.gradle\caches\modules-2\files-2.1\org.apfloat\apfloat\1.10.1\a32c54f97317c72c9377bb4f2cdecd52fe6329a\apfloat-1.10.1.jar
+[Architectury Transformer] Read classpath in 1.564 s
+[Architectury Transformer DEBUG] Closed File Systems for D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\common\build\devlibs\valkyrienmanager-1.0.0-dev.jar
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\common\build\devlibs\valkyrienmanager-1.0.0-dev.jar to C:\Users\ASUS\AppData\Local\Temp\10614262193531915152.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@65b3f4a4
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@f2ff811
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@568ff82
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@50caa560
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@2a266d09
+[Architectury Transformer DEBUG] Transforming from D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\common\build\devlibs\valkyrienmanager-1.0.0-dev.jar to C:\Users\ASUS\AppData\Local\Temp\10614262193531915152.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/Debug with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/foundation/api/DeferralRunnable with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/foundation/api/IntervalRunnable with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/foundation/api/QueryConditionRunnable with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/foundation/data/executor/DefaultDeferralRunnable with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/foundation/data/executor/DefaultIntervalRunnable with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/foundation/data/PhysicalCluster with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/foundation/data/ShipHitResult with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/foundation/data/ShipOwnerData with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/foundation/data/Timer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/foundation/data/VTag with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/foundation/data/WorldBlockPos with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/foundation/executor/DeferralExecutor with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/foundation/executor/IntervalExecutor with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/foundation/utils/ClipUtils with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/foundation/utils/MathUtils with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/foundation/utils/MinecraftServerUtils with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/foundation/utils/ParseUtils with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/manager/db/VDataExtension$builder with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/manager/db/VDataExtension$Field with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/manager/db/VDataExtension with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/manager/db/VSMDataBase with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/manager/events/VSMEvents with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/manager/Messages with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/manager/VManager with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/manager/VMCommands with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/mixin/accessor/ShipObjectServerWorldAccessor with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/mixin/MixinShipAssembly with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/mixin/MixinShipObjectServerWorld with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/util/ComponentUtil with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/ValkyrienManager with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/ValkyrienManagerClient with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/ValkyrienManagerServer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/gui/ExampleGui$StickyNote with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/gui/ExampleGui with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/verr1/gui/ManagerCenterGUI with maxs=true frames=true
+[Architectury Transformer DEBUG] Checking whether /valkyrienmanager-common-refmap.json is a mixin config.
+[Architectury Transformer DEBUG] Checking whether /valkyrienmanager.mixins.json is a mixin config.
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\ASUS\AppData\Local\Temp\10614262193531915152.jar
+[Architectury Transformer] Listening at D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\common\build\devlibs\valkyrienmanager-1.0.0-dev.jar
+[Architectury Transformer DEBUG] Temporary jar [C:\Users\ASUS\AppData\Local\Temp\10614262193531915152.jar] contains packages: com.verr1.valkyrienmanager.foundation.utils, com.verr1.valkyrienmanager, com.verr1.valkyrienmanager.manager.db, com.verr1.valkyrienmanager.foundation.executor, com.verr1.valkyrienmanager.manager.events, com.verr1.valkyrienmanager.foundation.data, com.verr1.valkyrienmanager.foundation.api, com.verr1.valkyrienmanager.mixin.accessor, com.verr1.valkyrienmanager.manager, com.verr1.valkyrienmanager.foundation.data.executor, com.verr1.valkyrienmanager.util, com.verr1.gui, com.verr1.valkyrienmanager.mixin
+[Architectury Transformer DEBUG] Closed File Systems for D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\common\build\devlibs\valkyrienmanager-1.0.0-dev.jar
+[Architectury Transformer DEBUG] Classpath entry [D:\GitHub\Valkyrien Skies Manager-1.20.1-fabric-forge-template\fabric\build\resources\main] contains packages: 
+[Architectury Transformer DEBUG] Transforming from com/verr1/valkyrienmanager/ValkyrienManager.class to com/verr1/valkyrienmanager/ValkyrienManager.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/ValkyrienManager with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/verr1/valkyrienmanager/ValkyrienManager in 1.157 ms
+[Architectury Transformer DEBUG] Transforming from com/verr1/valkyrienmanager/manager/VMCommands.class to com/verr1/valkyrienmanager/manager/VMCommands.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/manager/VMCommands with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/verr1/valkyrienmanager/manager/VMCommands in 2.006 ms
+[Architectury Transformer DEBUG] Transforming from com/verr1/valkyrienmanager/mixin/accessor/ShipObjectServerWorldAccessor.class to com/verr1/valkyrienmanager/mixin/accessor/ShipObjectServerWorldAccessor.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/mixin/accessor/ShipObjectServerWorldAccessor with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/verr1/valkyrienmanager/mixin/accessor/ShipObjectServerWorldAccessor in 570.8 ¦Ìs
+[Architectury Transformer DEBUG] Transforming from com/verr1/valkyrienmanager/ValkyrienManagerServer.class to com/verr1/valkyrienmanager/ValkyrienManagerServer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/ValkyrienManagerServer with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/verr1/valkyrienmanager/ValkyrienManagerServer in 748.6 ¦Ìs
+[Architectury Transformer DEBUG] Transforming from com/verr1/valkyrienmanager/foundation/executor/DeferralExecutor.class to com/verr1/valkyrienmanager/foundation/executor/DeferralExecutor.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/foundation/executor/DeferralExecutor with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/verr1/valkyrienmanager/foundation/executor/DeferralExecutor in 480.6 ¦Ìs
+[Architectury Transformer DEBUG] Transforming from com/verr1/valkyrienmanager/foundation/executor/IntervalExecutor.class to com/verr1/valkyrienmanager/foundation/executor/IntervalExecutor.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/foundation/executor/IntervalExecutor with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/verr1/valkyrienmanager/foundation/executor/IntervalExecutor in 547.5 ¦Ìs
+[Architectury Transformer DEBUG] Transforming from com/verr1/valkyrienmanager/manager/VManager.class to com/verr1/valkyrienmanager/manager/VManager.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/manager/VManager with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/verr1/valkyrienmanager/manager/VManager in 1.052 ms
+[Architectury Transformer DEBUG] Transforming from com/verr1/valkyrienmanager/foundation/data/Timer.class to com/verr1/valkyrienmanager/foundation/data/Timer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/foundation/data/Timer with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/verr1/valkyrienmanager/foundation/data/Timer in 275.4 ¦Ìs
+[Architectury Transformer DEBUG] Transforming from com/verr1/valkyrienmanager/manager/db/VDataExtension$Field.class to com/verr1/valkyrienmanager/manager/db/VDataExtension$Field.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/manager/db/VDataExtension$Field with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/verr1/valkyrienmanager/manager/db/VDataExtension$Field in 814.4 ¦Ìs
+[Architectury Transformer DEBUG] Transforming from com/verr1/valkyrienmanager/manager/db/VSMDataBase.class to com/verr1/valkyrienmanager/manager/db/VSMDataBase.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/manager/db/VSMDataBase with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/verr1/valkyrienmanager/manager/db/VSMDataBase in 412.4 ¦Ìs
+[Architectury Transformer DEBUG] Transforming from com/verr1/valkyrienmanager/util/ComponentUtil.class to com/verr1/valkyrienmanager/util/ComponentUtil.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/util/ComponentUtil with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/verr1/valkyrienmanager/util/ComponentUtil in 390.1 ¦Ìs
+[Architectury Transformer DEBUG] Transforming from com/verr1/valkyrienmanager/Debug.class to com/verr1/valkyrienmanager/Debug.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/Debug with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/verr1/valkyrienmanager/Debug in 608.1 ¦Ìs
+[Architectury Transformer DEBUG] Transforming from com/verr1/valkyrienmanager/manager/events/VSMEvents.class to com/verr1/valkyrienmanager/manager/events/VSMEvents.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/manager/events/VSMEvents with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/verr1/valkyrienmanager/manager/events/VSMEvents in 436.3 ¦Ìs
+[Architectury Transformer DEBUG] Transforming from com/verr1/valkyrienmanager/foundation/utils/MinecraftServerUtils.class to com/verr1/valkyrienmanager/foundation/utils/MinecraftServerUtils.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/foundation/utils/MinecraftServerUtils with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/verr1/valkyrienmanager/foundation/utils/MinecraftServerUtils in 563.0 ¦Ìs
+[Architectury Transformer DEBUG] Transforming from com/verr1/valkyrienmanager/manager/db/VDataExtension$builder.class to com/verr1/valkyrienmanager/manager/db/VDataExtension$builder.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/manager/db/VDataExtension$builder with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/verr1/valkyrienmanager/manager/db/VDataExtension$builder in 862.6 ¦Ìs
+[Architectury Transformer DEBUG] Transforming from com/verr1/valkyrienmanager/foundation/data/ShipOwnerData.class to com/verr1/valkyrienmanager/foundation/data/ShipOwnerData.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/foundation/data/ShipOwnerData with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/verr1/valkyrienmanager/foundation/data/ShipOwnerData in 382.3 ¦Ìs
+[Architectury Transformer DEBUG] Transforming from com/verr1/valkyrienmanager/manager/db/VDataExtension.class to com/verr1/valkyrienmanager/manager/db/VDataExtension.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/manager/db/VDataExtension with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/verr1/valkyrienmanager/manager/db/VDataExtension in 859.7 ¦Ìs
+[Architectury Transformer DEBUG] Transforming from com/verr1/valkyrienmanager/foundation/data/PhysicalCluster.class to com/verr1/valkyrienmanager/foundation/data/PhysicalCluster.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/foundation/data/PhysicalCluster with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/verr1/valkyrienmanager/foundation/data/PhysicalCluster in 517.2 ¦Ìs
+[Architectury Transformer DEBUG] Transforming from com/verr1/valkyrienmanager/foundation/data/WorldBlockPos.class to com/verr1/valkyrienmanager/foundation/data/WorldBlockPos.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/verr1/valkyrienmanager/foundation/data/WorldBlockPos with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/verr1/valkyrienmanager/foundation/data/WorldBlockPos in 662.0 ¦Ìs

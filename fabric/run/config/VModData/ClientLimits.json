@@ -1,0 +1,25 @@
+{
+  "lightingMode" : {
+    "mode" : "NOTHING"
+  },
+  "physRopeSides" : {
+    "minValue" : 2,
+    "maxValue" : 10
+  },
+  "ropeRendererWidth" : {
+    "minValue" : 0.0,
+    "maxValue" : 5.0
+  },
+  "lineRendererWidth" : {
+    "minValue" : 0.0,
+    "maxValue" : 5.0
+  },
+  "blockRendererScale" : {
+    "minValue" : 0.001,
+    "maxValue" : 10.0
+  },
+  "ropeRendererSegments" : {
+    "minValue" : 0,
+    "maxValue" : 128
+  }
+}

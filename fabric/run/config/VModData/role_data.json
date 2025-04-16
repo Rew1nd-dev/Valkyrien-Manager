@@ -1,0 +1,43 @@
+{
+  "rolesPermissions" : {
+    "default" : [ "Allow SensorMode", "Allow RopeMode", "Allow ScaleMode", "Allow StripMode", "Allow TestMode", "Allow SchemMode", "Allow GravChangerMode", "Allow MassChangerMode", "Allow SyncRotation", "Allow ShipRemoverMode", "Allow ConnectionMode", "Allow HydraulicsMode", "Allow SliderMode", "Allow ThrusterMode", "Allow DisableCollisionsMode", "Allow PhysRopeMode" ]
+  },
+  "playersRoles" : {
+    "fa57a584-be0c-37cc-aa91-b7d78367c493" : {
+      "uuid" : "fa57a584-be0c-37cc-aa91-b7d78367c493",
+      "nickname" : "Player881",
+      "role" : "default"
+    },
+    "1f3c4999-135a-3409-82bf-957837de1473" : {
+      "uuid" : "1f3c4999-135a-3409-82bf-957837de1473",
+      "nickname" : "Player395",
+      "role" : "default"
+    },
+    "fdd35a29-06a9-343e-abe1-1b90a6820307" : {
+      "uuid" : "fdd35a29-06a9-343e-abe1-1b90a6820307",
+      "nickname" : "Player675",
+      "role" : "default"
+    },
+    "bbd99455-8401-3d8f-8354-38be4a4ffba2" : {
+      "uuid" : "bbd99455-8401-3d8f-8354-38be4a4ffba2",
+      "nickname" : "Player326",
+      "role" : "default"
+    },
+    "8647fa2e-0d3d-396f-b7fb-761893f2c64f" : {
+      "uuid" : "8647fa2e-0d3d-396f-b7fb-761893f2c64f",
+      "nickname" : "Player622",
+      "role" : "default"
+    },
+    "e93afb92-bc6e-34ce-b382-da5f2dd619b2" : {
+      "uuid" : "e93afb92-bc6e-34ce-b382-da5f2dd619b2",
+      "nickname" : "Player399",
+      "role" : "default"
+    },
+    "4a5060c2-513d-3571-8c5d-062b588e69ca" : {
+      "uuid" : "4a5060c2-513d-3571-8c5d-062b588e69ca",
+      "nickname" : "Player266",
+      "role" : "default"
+    }
+  },
+  "allRoles" : [ "default" ]
+}

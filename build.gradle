@@ -1,0 +1,78 @@
+plugins {
+    id 'dev.architectury.loom' version '1.7-SNAPSHOT' apply false
+    id 'architectury-plugin' version '3.4-SNAPSHOT'
+
+    id 'org.jetbrains.kotlin.jvm' version '2.1.0'
+    // OPTIONAL Kotlin Serialization plugin
+    id 'org.jetbrains.kotlin.plugin.serialization' version '2.1.0'
+}
+
+architectury {
+    minecraft = rootProject.minecraft_version
+}
+
+subprojects {
+    apply plugin: "dev.architectury.loom"
+    apply plugin: "org.jetbrains.kotlin.jvm"
+
+    loom {
+        silentMojangMappingsLicense()
+    }
+
+    base {
+        // Set up a suffixed format for the mod jar names, e.g. `example-fabric`.
+        archivesName = "$rootProject.archives_name-$project.name"
+    }
+
+    repositories {
+        maven {
+            name = "ParchmentMC"
+            url = "https://maven.parchmentmc.org"
+        }
+        maven { // Flywheel
+            url = "https://maven.tterrag.com/"
+            content {
+                // need to be specific here due to version overlaps
+                includeGroup("com.jozufozu.flywheel")
+            }
+        }
+    }
+
+//    tasks.named("ideaSyncTask").configure { dependsOn gradle.includedBuild("Valkyrien-Ship-Schematics").task(":$project.name:build") }
+
+    dependencies {
+        minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"
+        // The following line declares the mojmap mappings, you may use other mappings as well
+        mappings(loom.layered {
+            officialMojangMappings()
+            parchment("org.parchmentmc.data:parchment-${rootProject.minecraft_version}:2023.09.03@zip")
+        })
+    }
+
+    kotlin {
+        jvmToolchain(17)
+    }
+}
+
+allprojects {
+    apply plugin: "java"
+    apply plugin: "architectury-plugin"
+    apply plugin: "maven-publish"
+
+    archivesBaseName = rootProject.archives_name
+    version = rootProject.mod_version
+    group = rootProject.maven_group
+
+    repositories {
+
+    }
+
+    tasks.withType(JavaCompile) {
+        options.encoding = "UTF-8"
+        options.release = 17
+    }
+
+    java {
+        withSourcesJar()
+    }
+}
