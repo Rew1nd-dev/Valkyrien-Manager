@@ -1,12 +1,10 @@
-package com.verr1.valkyrienmanager.manager.db;
+package com.verr1.valkyrienmanager.manager.db.v1;
 
-import com.verr1.valkyrienmanager.ValkyrienManager;
+import com.verr1.valkyrienmanager.VManagerMod;
 import com.verr1.valkyrienmanager.foundation.data.VTag;
-import it.unimi.dsi.fastutil.longs.Long2ObjectAVLTreeMap;
 import it.unimi.dsi.fastutil.longs.Long2ObjectRBTreeMap;
 import org.jetbrains.annotations.NotNull;
 
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
@@ -23,12 +21,12 @@ public class VSMDataBase {
     }
 
     public static void put(VDataExtension shipData){
-        ValkyrienManager.LOGGER.info("Adding ship data for shipID: {}", shipData.getId());
+        VManagerMod.LOGGER.info("Adding ship data for shipID: {}", shipData.getId());
         V_DATA.put(shipData.getId(), shipData);
     }
 
     public static void remove(long shipID){
-        ValkyrienManager.LOGGER.info("Removing ship data for shipID: {}", shipID);
+        VManagerMod.LOGGER.info("Removing ship data for shipID: {}", shipID);
         V_DATA.remove(shipID);
     }
 

@@ -12,6 +12,14 @@ repositories {
     }
     maven { url = "https://mvn.devos.one/snapshots/" } // Create Fabric, Porting Lib, Forge Tags, Milk Lib, Registrate Fabric
     mavenCentral()
+    repositories {
+        maven {
+            url "https://maven.squiddev.cc"
+            content {
+                includeGroup("cc.tweaked")
+            }
+        }
+    }
 }
 
 dependencies {
@@ -28,6 +36,9 @@ dependencies {
     modApi("org.valkyrienskies.core:util:${rootProject.vs_core_version}")
     modApi("org.valkyrienskies.core:impl:${rootProject.vs_core_version}")
 
+
+    modApi("cc.tweaked:cc-tweaked-${minecraft_version}-fabric:1.113.0")
+    compileOnly("cc.tweaked:cc-tweaked-${minecraft_version}-common-api:1.113.0")
 
     modImplementation (files("vs_jars/valkyrien-ship-schematics-common-1.0.jar"))
     modImplementation (files("vs_jars/VMod-1.0.0.jar"))

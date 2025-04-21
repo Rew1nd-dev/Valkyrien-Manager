@@ -1,11 +1,15 @@
 package com.verr1.valkyrienmanager.manager;
 
-import com.verr1.valkyrienmanager.ValkyrienManager;
+import com.verr1.valkyrienmanager.VManagerMod;
+import com.verr1.valkyrienmanager.VManagerServer;
 import com.verr1.valkyrienmanager.foundation.data.PhysicalCluster;
-import com.verr1.valkyrienmanager.foundation.data.ShipOwnerData;
+import com.verr1.valkyrienmanager.foundation.data.VOwnerData;
 import com.verr1.valkyrienmanager.foundation.data.Timer;
 import com.verr1.valkyrienmanager.foundation.data.WorldBlockPos;
-import com.verr1.valkyrienmanager.manager.db.VSMDataBase;
+import com.verr1.valkyrienmanager.manager.db.VDataBase;
+import com.verr1.valkyrienmanager.manager.db.item.NetworkKey;
+import com.verr1.valkyrienmanager.manager.db.item.VItem;
+import com.verr1.valkyrienmanager.manager.db.v1.VSMDataBase;
 import com.verr1.valkyrienmanager.mixin.accessor.ShipObjectServerWorldAccessor;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerPlayer;
@@ -18,6 +22,7 @@ import org.joml.Quaterniondc;
 import org.joml.Vector3d;
 import org.joml.Vector3dc;
 import org.valkyrienskies.core.api.ships.ServerShip;
+import org.valkyrienskies.core.api.ships.Ship;
 import org.valkyrienskies.core.apigame.constraints.VSConstraint;
 import org.valkyrienskies.core.apigame.world.ServerShipWorldCore;
 import org.valkyrienskies.core.impl.game.ShipTeleportDataImpl;
@@ -26,16 +31,20 @@ import org.valkyrienskies.mod.common.VSGameUtilsKt;
 import java.util.*;
 import java.util.List;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 public class VManager {
     public static final long INVALID_ID = -1L;
+    public static final long REQUEST_ALL_ID = -114514L;
 
     private final MinecraftServer server;
     private final ServerShipWorldCore vs_world;
 
     public Timer timer = new Timer();
 
-
+    private VDataBase db(){
+        return VManagerServer.DATA_BASE;
+    }
 
     public VManager(MinecraftServer server){
         this.server = server;
@@ -128,11 +137,13 @@ public class VManager {
                     )
                     .forEach(unvisited::offer);
             if(max_depth-- <= 1){
-                ValkyrienManager.LOGGER.warn("Cluster search depth exceeded !");
+                VManagerMod.LOGGER.warn("Cluster search depth exceeded !");
             }
         }
         return new PhysicalCluster().addAll(clusterSet);
     }
+
+
 
 
     public Optional<ServerShip> shipAt(WorldBlockPos pos){
@@ -189,10 +200,43 @@ public class VManager {
     }
 
     public void ownCluster(Player owner, long id){
-        clusterOf(id).ids.stream().map(VSMDataBase::get).forEach(vData -> {
-            vData.getPlayersAroundOnCreation().clear();
-            vData.getPlayersAroundOnCreation().add(ShipOwnerData.of(owner));
-        });
+        clusterOf(id)
+                .ids
+                .stream()
+                .map(tid -> db().data().get(tid))
+                .filter(Objects::nonNull)
+                .map(vItem -> vItem.get(NetworkKey.OWNER).get().raw)
+                .forEach(
+                        r -> r.add(VOwnerData.of(owner))
+                );
+
+    }
+
+    public void abandonCluster(Player owner, long id){
+        clusterOf(id)
+                .ids
+                .stream()
+                .map(tid -> db().data().get(tid))
+                .filter(Objects::nonNull)
+                .map(vItem -> vItem.get(NetworkKey.OWNER).get().raw)
+                .forEach(
+                        r -> r.remove(VOwnerData.of(owner))
+                );
+    }
+
+    public void createForAbsence(){
+        allShips()
+                .stream()
+                .map(Ship::getId)
+                .filter(id -> db().getOptional(id).isEmpty())
+                .forEach(
+                        id -> db().put(id, VItem.createEmpty(id))
+                );
+    }
+
+    public void dropInvalid(){
+        Set<Long> present = allShips().stream().map(Ship::getId).collect(Collectors.toSet());
+        db().data().keySet().stream().filter(present::contains).forEach(i -> db().remove(i));
     }
 
     public long pick(ServerPlayer player){

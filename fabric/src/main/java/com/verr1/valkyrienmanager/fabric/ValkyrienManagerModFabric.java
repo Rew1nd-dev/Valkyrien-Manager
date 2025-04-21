@@ -3,7 +3,7 @@ package com.verr1.valkyrienmanager.fabric;
 import com.verr1.valkyrienmanager.manager.VMCommands;
 import net.fabricmc.api.ModInitializer;
 
-import com.verr1.valkyrienmanager.ValkyrienManager;
+import com.verr1.valkyrienmanager.VManagerMod;
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 
 public final class ValkyrienManagerModFabric implements ModInitializer {
@@ -14,8 +14,8 @@ public final class ValkyrienManagerModFabric implements ModInitializer {
         // Proceed with mild caution.
 
         // Run our common setup.
-        ValkyrienManager.init();
+        VManagerMod.init();
 
-        CommandRegistrationCallback.EVENT.register((dispatcher, access, env) -> VMCommands.registerServerCommands(dispatcher));
+        // CommandRegistrationCallback.EVENT.register((dispatcher, access, env) -> VMCommands.registerServerCommands(dispatcher));
     }
 }

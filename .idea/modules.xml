@@ -5,8 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/valkyrienmanager.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/valkyrienmanager.common.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/valkyrienmanager.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/valkyrienmanager.common.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/valkyrienmanager.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/valkyrienmanager.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/valkyrienmanager.fabric.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/valkyrienmanager.fabric.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/valkyrienmanager.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/valkyrienmanager.fabric.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/valkyrienmanager.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/valkyrienmanager.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/valkyrienmanager.forge.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/valkyrienmanager.forge.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/valkyrienmanager.forge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/valkyrienmanager.forge.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/valkyrienmanager.forge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/valkyrienmanager.forge.test.iml" />
     </modules>

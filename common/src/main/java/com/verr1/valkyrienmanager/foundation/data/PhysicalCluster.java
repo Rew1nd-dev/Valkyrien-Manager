@@ -1,6 +1,10 @@
 package com.verr1.valkyrienmanager.foundation.data;
 
+import com.verr1.valkyrienmanager.VManagerServer;
+import org.valkyrienskies.core.api.ships.ServerShip;
+
 import java.util.*;
+import java.util.function.Consumer;
 
 public class PhysicalCluster {
     public static PhysicalCluster EMPTY = new PhysicalCluster();
@@ -27,6 +31,11 @@ public class PhysicalCluster {
 
     public String toString(){
         return "Clustered Ships: " + ids;
+    }
+
+    public void forEachShip(Consumer<ServerShip> consumer) {
+        ids.forEach(id -> VManagerServer.manager().shipOf(id).ifPresent(consumer));
+
     }
 
 }

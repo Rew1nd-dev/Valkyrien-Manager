@@ -91,7 +91,7 @@ class ExampleGui : WindowScreen(ElementaVersion.V7) {
             // darker hue.
 
             // The mouse enter lambda's have the UIComponent they were called on as
-            // the [this] receiver, which in simpler terms means that in this scope,
+            // the [this] receiver, which in simpler entry means that in this scope,
             // [this] refers to our UIBlock ("createNoteButton").
             // For clarity, the `this.` before the call to [animate] is explicit,
             // but in the future it will be omitted, just keep in mind how [animate] is

@@ -27,6 +27,14 @@ repositories {
     }
     maven { url = "https://mvn.devos.one/snapshots/" } // Create Fabric, Porting Lib, Forge Tags, Milk Lib, Registrate Fabric
     mavenCentral()
+    repositories {
+        maven {
+            url "https://maven.squiddev.cc"
+            content {
+                includeGroup("cc.tweaked")
+            }
+        }
+    }
 }
 
 configurations {
@@ -61,8 +69,12 @@ dependencies {
 
     modRuntimeOnly("com.simibubi.create:create-fabric-${minecraft_version}:${create_fabric_version}")
 
+    modCompileOnly("cc.tweaked:cc-tweaked-${minecraft_version}-fabric-api:1.113.0")
+    modRuntimeOnly("cc.tweaked:cc-tweaked-${minecraft_version}-fabric:1.113.0")
+
     implementation("org.jgrapht:jgrapht-core:1.5.2")
     modImplementation(files("vs_jars/valkyrien-ship-schematics-fabric-1.0.jar"))
+    // modImplementation(files("vs_jars/cc-tweaked-1.20.1-fabric-1.113.0.jar"))
     modImplementation(files("vs_jars/VMod-Fabric-1.20.1-1.0.0.jar"))
 
     include (implementation("gg.essential:elementa:676"))

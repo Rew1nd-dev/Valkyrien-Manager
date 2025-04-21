@@ -1,17 +1,26 @@
 package com.verr1.valkyrienmanager.foundation.data;
 
+import com.verr1.valkyrienmanager.util.CompoundTagBuilder;
+import net.minecraft.nbt.CompoundTag;
+
+import java.util.HashMap;
+
 public class VTag {
+
+
+    private final String name;
+
+    private VTag(String name) {
+        this.name = name;
+    }
+
+
+    public static VTag of(String name){
+        return new VTag(name);
+    }
 
     public String name() {
         return name;
-    }
-
-    public String name = "";
-
-    public static VTag of(String name){
-        VTag tag = new VTag();
-        tag.name = name;
-        return tag;
     }
 
     @Override
@@ -25,6 +34,14 @@ public class VTag {
             return name.equals(vTag.name);
         }
         return false;
+    }
+
+    public CompoundTag serialize(){
+        return CompoundTagBuilder.create().withString("name", name).build();
+    }
+
+    public static VTag deserialize(CompoundTag tag){
+        return of(tag.getString("name"));
     }
 
     @Override
