@@ -1,22 +1,23 @@
 package com.verr1.valkyrienmanager.foundation.data;
 
+import com.verr1.valkyrienmanager.VManagerServer;
 import com.verr1.valkyrienmanager.util.CompoundTagBuilder;
 import net.minecraft.nbt.CompoundTag;
 
 import java.util.HashMap;
 
 public class VTag {
+    public static final VTag INVALID = new VTag("INVALID");
 
 
     private final String name;
 
-    private VTag(String name) {
+    public VTag(String name) {
         this.name = name;
     }
 
-
     public static VTag of(String name){
-        return new VTag(name);
+        return VManagerServer.DATA_BASE.of(name);
     }
 
     public String name() {
@@ -41,7 +42,7 @@ public class VTag {
     }
 
     public static VTag deserialize(CompoundTag tag){
-        return of(tag.getString("name"));
+        return new VTag(tag.getString("name"));
     }
 
     @Override

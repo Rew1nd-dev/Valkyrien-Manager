@@ -1,10 +1,9 @@
 package com.verr1.valkyrienmanager.network;
 
 import com.verr1.valkyrienmanager.VManagerServer;
-import com.verr1.valkyrienmanager.manager.db.item.NetworkKey;
+import com.verr1.valkyrienmanager.manager.db.general.item.NetworkKey;
 import dev.architectury.networking.NetworkManager;
 import net.minecraft.network.FriendlyByteBuf;
-import net.minecraft.server.level.ServerPlayer;
 
 import java.util.ArrayList;
 import java.util.List;

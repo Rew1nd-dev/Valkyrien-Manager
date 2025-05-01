@@ -20,6 +20,30 @@ repositories {
             }
         }
     }
+    repositories {
+        maven {
+            url "https://maven.latvian.dev/releases"
+            content {
+                includeGroup "dev.latvian.mods"
+                includeGroup "dev.latvian.apps"
+            }
+        }
+
+        maven {
+            url 'https://jitpack.io'
+            content {
+                includeGroup "com.github.rtyley"
+            }
+        }
+
+        maven {
+            // saps.dev Maven (KubeJS and Rhino)
+            url = "https://maven.saps.dev/minecraft"
+            content {
+                includeGroup "dev.latvian.mods"
+            }
+        }
+    }
 }
 
 dependencies {
@@ -36,12 +60,19 @@ dependencies {
     modApi("org.valkyrienskies.core:util:${rootProject.vs_core_version}")
     modApi("org.valkyrienskies.core:impl:${rootProject.vs_core_version}")
 
+    modCompileOnly("com.simibubi.create:create-fabric-${minecraft_version}:${create_fabric_version}")
+
+
+    modImplementation("dev.latvian.mods:kubejs:2001.6.5-build.19")
 
     modApi("cc.tweaked:cc-tweaked-${minecraft_version}-fabric:1.113.0")
     compileOnly("cc.tweaked:cc-tweaked-${minecraft_version}-common-api:1.113.0")
 
     modImplementation (files("vs_jars/valkyrien-ship-schematics-common-1.0.jar"))
+
     modImplementation (files("vs_jars/VMod-1.0.0.jar"))
+
+    modApi(files("vs_jars/baritone-api-fabric-1.10.1.jar"))
 
 
 //    modApi("org.valkyrienskies:valkyrienskies-120-common:${rootProject.vs2_version}")

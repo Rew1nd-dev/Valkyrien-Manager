@@ -29,6 +29,6 @@ public class ServerBoundExecuteVCommandPacket implements RootPacket{
 
     @Override
     public void handle(NetworkManager.PacketContext context) {
-        context.queue(() -> type.executeServer(contextTag));
+        context.queue(() -> type.executeServer(contextTag, context.getPlayer()));
     }
 }

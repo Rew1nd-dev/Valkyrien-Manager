@@ -1,6 +1,7 @@
 package com.verr1.valkyrienmanager.fabric;
 
-import com.verr1.valkyrienmanager.manager.VMCommands;
+import com.verr1.valkyrienmanager.foundation.command.VMClientCommands;
+import com.verr1.valkyrienmanager.foundation.command.VMServerCommands;
 import net.fabricmc.api.ModInitializer;
 
 import com.verr1.valkyrienmanager.VManagerMod;
@@ -16,6 +17,17 @@ public final class ValkyrienManagerModFabric implements ModInitializer {
         // Run our common setup.
         VManagerMod.init();
 
-        // CommandRegistrationCallback.EVENT.register((dispatcher, access, env) -> VMCommands.registerServerCommands(dispatcher));
+
+
+        CommandRegistrationCallback.EVENT.register((dispatcher, access, env) -> {
+            if(env.includeDedicated){
+                VMServerCommands.registerServerCommands(dispatcher);
+            }
+            if(env.includeIntegrated || env.includeDedicated){
+                VMClientCommands.registerClientCommands(dispatcher);
+                VMServerCommands.registerServerCommands(dispatcher);
+            }
+
+        });
     }
 }

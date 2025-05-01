@@ -3,7 +3,7 @@
   "id": "valkyrienmanager",
   "version": "${version}",
   "name": "Valkyrien Skies Manager",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Makes your life easier with lots of ships. Fire Ship events to kjs, computer craft, query ship data extension through api",
   "authors": [
     "Me!"
   ],

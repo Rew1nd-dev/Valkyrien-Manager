@@ -35,6 +35,30 @@ repositories {
             }
         }
     }
+    repositories {
+        maven {
+            url "https://maven.latvian.dev/releases"
+            content {
+                includeGroup "dev.latvian.mods"
+                includeGroup "dev.latvian.apps"
+            }
+        }
+
+        maven {
+            url 'https://jitpack.io'
+            content {
+                includeGroup "com.github.rtyley"
+            }
+        }
+
+        maven {
+            // saps.dev Maven (KubeJS and Rhino)
+            url = "https://maven.saps.dev/minecraft"
+            content {
+                includeGroup "dev.latvian.mods"
+            }
+        }
+    }
 }
 
 configurations {
@@ -46,6 +70,10 @@ configurations {
 }
 
 dependencies {
+
+    modImplementation (files("vs_jars/valkyrien-ship-schematics-fabric-1.0.jar"))
+    // include(modImplementation("net.spaceeye:valkyrien-ship-schematics-$project.name-$minecraft_version:1.0"))
+
     modImplementation "net.fabricmc:fabric-loader:$rootProject.fabric_loader_version"
 
     // Fabric API. This is technically optional, but you probably want it anyway.
@@ -60,6 +88,10 @@ dependencies {
     // include("com.fasterxml:classmate:1.5.1")
     implementation("com.fasterxml:classmate:1.5.1")
 
+
+
+    modApi("dev.latvian.mods:kubejs-fabric:2001.6.5-build.19")
+
     implementation "com.fasterxml.jackson.core:jackson-annotations:2.13.3"
     modImplementation("net.fabricmc:fabric-language-kotlin:1.10.10+kotlin.1.9.10")
 
@@ -72,10 +104,14 @@ dependencies {
     modCompileOnly("cc.tweaked:cc-tweaked-${minecraft_version}-fabric-api:1.113.0")
     modRuntimeOnly("cc.tweaked:cc-tweaked-${minecraft_version}-fabric:1.113.0")
 
+
+
     implementation("org.jgrapht:jgrapht-core:1.5.2")
-    modImplementation(files("vs_jars/valkyrien-ship-schematics-fabric-1.0.jar"))
+
     // modImplementation(files("vs_jars/cc-tweaked-1.20.1-fabric-1.113.0.jar"))
     modImplementation(files("vs_jars/VMod-Fabric-1.20.1-1.0.0.jar"))
+
+    modRuntimeOnly(files("vs_jars/baritone-api-fabric-1.10.1.jar"))
 
     include (implementation("gg.essential:elementa:676"))
     include (modImplementation("gg.essential:universalcraft-1.20.1-fabric:384"))

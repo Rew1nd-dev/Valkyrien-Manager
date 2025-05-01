@@ -17,10 +17,14 @@ public enum VMPackets {
 
     CLIENT_V_DATA_SYNC(ClientBoundVDataSyncPacket.class, ClientBoundVDataSyncPacket::new),
     CLIENT_KEY_SYNC(ClientBoundSyncKeysPacket.class, ClientBoundSyncKeysPacket::new),
+    CLIENT_TAG_SYNC(ClientBoundSyncTagsPacket.class, ClientBoundSyncTagsPacket::new),
+    CLIENT_SNAP_CONFIG_SYNC(ClientBoundSyncSnapConfigPacket.class, ClientBoundSyncSnapConfigPacket::new),
 
     SERVER_V_DATA_REQUEST(ServerBoundRequestVDataPacket.class, ServerBoundRequestVDataPacket::new),
     SERVER_KEY_REQUEST(ServerBoundRequestSyncKeysPacket.class, ServerBoundRequestSyncKeysPacket::new),
     SERVER_EXECUTE_COMMAND(ServerBoundExecuteVCommandPacket.class, ServerBoundExecuteVCommandPacket::new),
+    SERVER_TAG_REQUEST(ServerBoundRequestSyncTagsPacket.class, ServerBoundRequestSyncTagsPacket::new),
+    SERVER_SNAP_CONFIG_REQUEST(ServerBoundRequestSyncSnapConfigPacket.class, ServerBoundRequestSyncSnapConfigPacket::new),
     ;
 
 

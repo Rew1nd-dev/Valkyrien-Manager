@@ -1,19 +1,14 @@
 package com.verr1.valkyrienmanager.manager.vcommand.all.toggle_own;
 
 import com.verr1.valkyrienmanager.VManagerServer;
-import com.verr1.valkyrienmanager.foundation.data.VOwnerData;
-import com.verr1.valkyrienmanager.manager.db.item.NetworkKey;
-import com.verr1.valkyrienmanager.manager.db.item.VItem;
+import com.verr1.valkyrienmanager.manager.db.general.item.NetworkKey;
 import com.verr1.valkyrienmanager.manager.vcommand.VCommand;
-import com.verr1.valkyrienmanager.manager.vcommand.all.VUnaryIDOperator;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.world.entity.Entity;
-import org.valkyrienskies.core.api.ships.ServerShip;
+import net.minecraft.world.entity.player.Player;
 
-import java.util.UUID;
 import java.util.concurrent.atomic.AtomicReference;
 
 public class VToggleOwn implements VCommand<VToggleOwnContext> {
@@ -21,6 +16,11 @@ public class VToggleOwn implements VCommand<VToggleOwnContext> {
     @Override
     public Class<VToggleOwnContext> type() {
         return VToggleOwnContext.class;
+    }
+
+    @Override
+    public QualifyResult qualify(Player executor, VToggleOwnContext context) {
+        return new QualifyResult(true, "no message");
     }
 
     @Override

@@ -13,7 +13,7 @@ public class DeferralExecutable implements Executable {
 
     @Override
     public boolean shouldRun() {
-        return counter == 0;
+        return counter <= 0;
     }
 
     @Override

@@ -52,6 +52,9 @@ subprojects {
     kotlin {
         jvmToolchain(17)
     }
+
+    // tasks.named("ideaSyncTask").configure { dependsOn gradle.includedBuild("Valkyrien-Ship-Schematics").task(":$project.name:build") }
+
 }
 
 allprojects {
@@ -75,4 +78,6 @@ allprojects {
     java {
         withSourcesJar()
     }
+
+    // tasks.named("build").configure { dependsOn gradle.includedBuild("Valkyrien-Ship-Schematics").task(":$project.name:build") }
 }

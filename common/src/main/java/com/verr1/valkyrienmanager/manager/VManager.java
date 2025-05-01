@@ -6,14 +6,20 @@ import com.verr1.valkyrienmanager.foundation.data.PhysicalCluster;
 import com.verr1.valkyrienmanager.foundation.data.VOwnerData;
 import com.verr1.valkyrienmanager.foundation.data.Timer;
 import com.verr1.valkyrienmanager.foundation.data.WorldBlockPos;
-import com.verr1.valkyrienmanager.manager.db.VDataBase;
-import com.verr1.valkyrienmanager.manager.db.item.NetworkKey;
-import com.verr1.valkyrienmanager.manager.db.item.VItem;
-import com.verr1.valkyrienmanager.manager.db.v1.VSMDataBase;
+import com.verr1.valkyrienmanager.manager.db.general.VDataBase;
+import com.verr1.valkyrienmanager.manager.db.general.item.NetworkKey;
+import com.verr1.valkyrienmanager.manager.db.general.item.VItem;
+import com.verr1.valkyrienmanager.manager.db.snapshot.SnapshotDataBase;
+import com.verr1.valkyrienmanager.manager.db.snapshot.item.VSnapshot;
 import com.verr1.valkyrienmanager.mixin.accessor.ShipObjectServerWorldAccessor;
+import com.verr1.valkyrienmanager.vs.VSTracker;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.level.block.AirBlock;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.HitResult;
 import org.jetbrains.annotations.NotNull;
@@ -21,6 +27,7 @@ import org.joml.Quaterniond;
 import org.joml.Quaterniondc;
 import org.joml.Vector3d;
 import org.joml.Vector3dc;
+import org.valkyrienskies.core.api.ships.LoadedServerShip;
 import org.valkyrienskies.core.api.ships.ServerShip;
 import org.valkyrienskies.core.api.ships.Ship;
 import org.valkyrienskies.core.apigame.constraints.VSConstraint;
@@ -40,11 +47,14 @@ public class VManager {
     private final MinecraftServer server;
     private final ServerShipWorldCore vs_world;
 
+    private final VSTracker tracker = new VSTracker();
     public Timer timer = new Timer();
 
     private VDataBase db(){
         return VManagerServer.DATA_BASE;
     }
+
+    private SnapshotDataBase sdb(){return VManagerServer.SNAP_DATA_BASE;}
 
     public VManager(MinecraftServer server){
         this.server = server;
@@ -55,6 +65,11 @@ public class VManager {
     public @NotNull List<ServerShip> allShips(){
         return vs_world.getAllShips().stream().toList();
     }
+
+    public @NotNull List<LoadedServerShip> allLoadedShips(){
+        return vs_world.getLoadedShips().stream().toList();
+    }
+
 
     public Optional<ServerShip> shipOf(long id){
         return Optional.ofNullable(vs_world.getAllShips().getById(id));
@@ -136,7 +151,7 @@ public class VManager {
                         id_ -> !clusterSet.contains(id_) && !Objects.equals(id_, GROUND_BODY_ID)
                     )
                     .forEach(unvisited::offer);
-            if(max_depth-- <= 1){
+            if(max_depth-- == 1){
                 VManagerMod.LOGGER.warn("Cluster search depth exceeded !");
             }
         }
@@ -212,6 +227,26 @@ public class VManager {
 
     }
 
+    public Optional<ServerLevel> levelOf(long id){
+        return Optional.ofNullable(VSGameUtilsKt.getLevelFromDimensionId(VManagerServer.INSTANCE, dimensionOf(id)));
+    }
+
+    public void snap(long id){
+        var levelOpt = levelOf(id);
+        if(levelOpt.isEmpty())return;
+        shipOf(id).ifPresent(
+                s -> sdb().put(id, VSnapshot.create(s, levelOpt.get()))
+        );
+    }
+
+    public void repair(long id){
+        var levelOpt = levelOf(id);
+        if(levelOpt.isEmpty())return;
+        Optional.ofNullable(sdb().get(id)).ifPresent(
+                s -> s.repair(levelOpt.get())
+        );
+    }
+
     public void abandonCluster(Player owner, long id){
         clusterOf(id)
                 .ids
@@ -239,7 +274,7 @@ public class VManager {
         db().data().keySet().stream().filter(present::contains).forEach(i -> db().remove(i));
     }
 
-    public long pick(ServerPlayer player){
+    public long pick(@NotNull ServerPlayer player){
         HitResult hit = player.pick(10, 1, false);
         if(hit instanceof BlockHitResult blockHitResult){
             WorldBlockPos pos = WorldBlockPos.of(player.level(), blockHitResult.getBlockPos());
@@ -248,9 +283,20 @@ public class VManager {
         return INVALID_ID;
     }
 
+    public @NotNull BlockState pickBlock(@NotNull ServerPlayer player){
+        HitResult hit = player.pick(10, 1, false);
+        if(hit instanceof BlockHitResult blockHitResult){
+            return player.level().getBlockState(blockHitResult.getBlockPos());
+        }
+        return Blocks.AIR.defaultBlockState();
+    }
+
+
+
 
     public void tick(){
         timer.tick();
+        tracker.tick();
     }
 
 }

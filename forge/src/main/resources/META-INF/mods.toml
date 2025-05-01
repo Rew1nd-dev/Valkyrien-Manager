@@ -9,7 +9,7 @@ version = "${version}"
 displayName = "Valkyrien Skies Manager"
 authors = "Me!"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+Makes your life easier with lots of ships. Fire Ship events to kjs, computer craft, query ship data extension through api
 '''
 #logoFile = ""
 

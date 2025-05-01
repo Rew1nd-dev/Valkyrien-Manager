@@ -4,6 +4,7 @@ import com.verr1.valkyrienmanager.VManagerServer;
 import org.valkyrienskies.core.api.ships.ServerShip;
 
 import java.util.*;
+import java.util.concurrent.atomic.AtomicLong;
 import java.util.function.Consumer;
 
 public class PhysicalCluster {
@@ -23,6 +24,12 @@ public class PhysicalCluster {
     public PhysicalCluster addAll(Collection<Long> ids) {
         this.ids.addAll(ids);
         return this;
+    }
+
+    public long heuristicID(){
+        AtomicLong hash = new AtomicLong(0);
+        ids.forEach(id -> hash.set(hash.get() ^ id.hashCode()));
+        return hash.get();
     }
 
     public boolean contains(long id) {

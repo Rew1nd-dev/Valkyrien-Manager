@@ -7,6 +7,7 @@ import org.joml.Quaterniond;
 import org.joml.Quaterniondc;
 import org.joml.Vector3d;
 import org.joml.Vector3dc;
+import org.joml.primitives.AABBi;
 
 import javax.annotation.Nullable;
 import java.util.*;
@@ -69,6 +70,28 @@ public class SerializeUtils {
                 return tag;
             },
             tag -> new Quaterniond(tag.getDouble("x"), tag.getDouble("y"), tag.getDouble("z"), tag.getDouble("w"))
+    );
+
+
+    public static Serializer<AABBi> AABB_I = of(
+            aabb -> {
+                CompoundTag tag = new CompoundTag();
+                tag.putInt("minX", aabb.minX());
+                tag.putInt("minY", aabb.minY());
+                tag.putInt("minZ", aabb.minZ());
+                tag.putInt("maxX", aabb.maxX());
+                tag.putInt("maxY", aabb.maxY());
+                tag.putInt("maxZ", aabb.maxZ());
+                return tag;
+            },
+            tag -> new AABBi(
+                    tag.getInt("minX"),
+                    tag.getInt("minY"),
+                    tag.getInt("minZ"),
+                    tag.getInt("maxX"),
+                    tag.getInt("maxY"),
+                    tag.getInt("maxZ")
+            )
     );
 
     @SuppressWarnings("unchecked") // It's checked
